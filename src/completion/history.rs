@@ -60,6 +60,7 @@ impl<'menu> HistoryCompleter<'menu> {
             description: None,
             extra: None,
             span,
+            score: 0,
         }
     }
 }

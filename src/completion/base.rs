@@ -67,4 +67,6 @@ pub struct Suggestion {
     pub extra: Option<Vec<String>>,
     /// Replacement span in the buffer
     pub span: Span,
+    /// Score for sorting
+    pub score: i64,
 }
