@@ -68,5 +68,5 @@ pub struct Suggestion {
     /// Replacement span in the buffer
     pub span: Span,
     /// Score for sorting
-    pub score: i64,
+    pub score: Option<i64>,
 }

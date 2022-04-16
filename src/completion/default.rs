@@ -101,7 +101,7 @@ impl Completer for DefaultCompleter {
                                         description: None,
                                         extra: None,
                                         span,
-                                        score: 0,
+                                        score: None,
                                     }
                                 })
                                 .filter(|t| t.value.len() > (t.span.end - t.span.start))
